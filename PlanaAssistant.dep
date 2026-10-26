@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..GameDependencyData>
+	<ID>
+		<name text="PlanaAssistant"/>
+		<id text="1aff5f35-59c6-4d88-97aa-7f5bc87fa702"/>
+	</ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="Civ6"/>
+			<id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
+		</Element>
+		<Element>
+			<name text="Expansion2"/>
+			<id text="b1b63999-6b16-4dd2-a5b6-eb19794aa8ca"/>
+		</Element>
+	</RequiredGameArtIDs>
+	<SystemDependencies>
+		<!-- 领袖正式立绘：LeaderFallback 包，consumer / library 都是 LeaderFallback -->
+		<Element>
+			<ConsumerName text="LeaderFallback"/>
+			<ArtDefDependencyPaths>
+				<Element text="FallbackLeaders.artdef"/>
+			</ArtDefDependencyPaths>
+			<LibraryDependencies>
+				<Element text="LeaderFallback"/>
+			</LibraryDependencies>
+			<LoadsLibraries>true</LoadsLibraries>
+		</Element>
+		<!-- 普通 UI 贴图（场景背景等）：UITexture 包 -->
+		<Element>
+			<ConsumerName text="UI"/>
+			<ArtDefDependencyPaths/>
+			<LibraryDependencies>
+				<Element text="UITexture"/>
+			</LibraryDependencies>
+			<LoadsLibraries>true</LoadsLibraries>
+		</Element>
+	</SystemDependencies>
+	<ArtDefDependencies>
+		<Element>
+			<ArtDefPath text="FallbackLeaders.artdef"/>
+			<ArtDefDependencyPaths/>
+		</Element>
+	</ArtDefDependencies>
+	<LibraryDependencies>
+		<Element>
+			<LibraryName text="LeaderFallback"/>
+			<PackageDependencies>
+				<Element text="LeaderFallbacks.blp"/>
+			</PackageDependencies>
+		</Element>
+		<Element>
+			<LibraryName text="UITexture"/>
+			<PackageDependencies>
+				<Element text="IMG_UITexture.blp"/>
+			</PackageDependencies>
+		</Element>
+	</LibraryDependencies>
+</AssetObjects..GameDependencyData>

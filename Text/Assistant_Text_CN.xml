@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_ASSISTANT_MOD_NAME" Language="zh_Hans_CN">
+			<Text>普拉娜与阿罗娜</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>AI 助手领袖与她们的对话面板。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_PLANA_NAME" Language="zh_Hans_CN">
+			<Text>普拉娜</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_PLANA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>安静的助手，替你记着帝国的每一笔账。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_PLANA_QUOTE" Language="zh_Hans_CN">
+			<Text>我会一直陪在老师身边。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_ARONA_NAME" Language="zh_Hans_CN">
+			<Text>阿罗娜</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_ARONA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开朗的助手，替你照看着每一座城市。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_ARONA_QUOTE" Language="zh_Hans_CN">
+			<Text>老师，今天也一起加油吧！</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_SMILING_PROFESSOR_NAME" Language="zh_Hans_CN">
+			<Text>微笑教授</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_SMILING_PROFESSOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>替你处理麻烦事的助手。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_SMILING_PROFESSOR_QUOTE" Language="zh_Hans_CN">
+			<Text>麻烦的事就交给我吧。</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_PANEL_ENTRY" Language="zh_Hans_CN">
+			<Text>助手</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_PANEL_CLOSE" Language="zh_Hans_CN">
+			<Text>关闭</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_PANEL_BACK" Language="zh_Hans_CN">
+			<Text>返回</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_PANEL_NO_DATA" Language="zh_Hans_CN">
+			<Text>没有加载到助手数据。</Text>
+		</Row>
+		<Row Tag="LOC_IMG_ASSISTANT_SCENE_BA" Language="zh_Hans_CN">
+			<Text>碧蓝档案</Text>
+		</Row>
+		<Row Tag="LOC_IMG_ASSISTANT_SCENE_SHALE" Language="zh_Hans_CN">
+			<Text>页岩</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_PILLAGED_IMPROVEMENTS" Language="zh_Hans_CN">
+			<Text>改良</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_PILLAGED_BUILDINGS" Language="zh_Hans_CN">
+			<Text>建筑</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_PILLAGED_DISTRICTS" Language="zh_Hans_CN">
+			<Text>区域</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_NUKE_STANDARD" Language="zh_Hans_CN">
+			<Text>标准核武</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_NUKE_EXTENSIVE" Language="zh_Hans_CN">
+			<Text>扩展核武</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_FOREIGN_MILITARY_UNITS" Language="zh_Hans_CN">
+			<Text>外国军事力量</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_FOREIGN_WONDER_BUILD_PROGRESS" Language="zh_Hans_CN">
+			<Text>外国奇观进度</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_GOSSIP_HISTORY" Language="zh_Hans_CN">
+			<Text>流言记录</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_FOREIGN_WONDER_LOCATION" Language="zh_Hans_CN">
+			<Text>外国奇观位置</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_FOREIGN_NUKE_NUM" Language="zh_Hans_CN">
+			<Text>外国核武库</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_FOREIGN_PRODUCTION_PROGRESS" Language="zh_Hans_CN">
+			<Text>外国生产进度</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_FOREIGN_SPY_ACTION" Language="zh_Hans_CN">
+			<Text>外国间谍行动</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_FOREIGN_ECONOMY" Language="zh_Hans_CN">
+			<Text>外国经济</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_ENEMIES_IN_TERRITORY" Language="zh_Hans_CN">
+			<Text>境内的敌军</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_LOYALTY_DECREASING" Language="zh_Hans_CN">
+			<Text>忠诚下降的城市</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_POPULATION_DECREASING" Language="zh_Hans_CN">
+			<Text>人口下降的城市</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_LOW_AMENITY" Language="zh_Hans_CN">
+			<Text>宜居度不足的城市</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_SPY_ACTION_IN_TERRITORY" Language="zh_Hans_CN">
+			<Text>境内的敌方间谍</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_PILLAGED_ASSETS" Language="zh_Hans_CN">
+			<Text>被劫掠的改良、建筑与区域</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_LOW_HEALTH_UNITS" Language="zh_Hans_CN">
+			<Text>残血单位</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_CITY_AUTO_REPAIR" Language="zh_Hans_CN">
+			<Text>自动修复城市的区域与建筑</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_CITY_AUTO_FILL_BUILDINGS" Language="zh_Hans_CN">
+			<Text>自动补齐城市建筑</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_CITY_AUTO_REPEAT_PROJECTS" Language="zh_Hans_CN">
+			<Text>自动重复城市项目</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_CITY_AUTO_BUILD_IMPROVEMENTS" Language="zh_Hans_CN">
+			<Text>自动建造改良</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_CORPS_ASSIGN_UNITS" Language="zh_Hans_CN">
+			<Text>将单位分配给军团</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_CORPS_SET_TASKS" Language="zh_Hans_CN">
+			<Text>设置军团任务（警戒 / 攻击）</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

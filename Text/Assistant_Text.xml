@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_ASSISTANT_MOD_NAME" Language="en_US">
+			<Text>Plana and Arona</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_MOD_DESCRIPTION" Language="en_US">
+			<Text>AI assistant leaders and their dialogue panel.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_PLANA_NAME" Language="en_US">
+			<Text>Plana</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_PLANA_DESCRIPTION" Language="en_US">
+			<Text>A quiet assistant who keeps every record of your empire.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_PLANA_QUOTE" Language="en_US">
+			<Text>I will stay by your side, Sensei.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_ARONA_NAME" Language="en_US">
+			<Text>Arona</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_ARONA_DESCRIPTION" Language="en_US">
+			<Text>A cheerful assistant who watches over your cities.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_ARONA_QUOTE" Language="en_US">
+			<Text>Let's do our best again today, Sensei!</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_SMILING_PROFESSOR_NAME" Language="en_US">
+			<Text>Smiling Professor</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_SMILING_PROFESSOR_DESCRIPTION" Language="en_US">
+			<Text>An assistant who handles the troublesome work.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KOCMOCA_SMILING_PROFESSOR_QUOTE" Language="en_US">
+			<Text>Leave the troublesome things to me.</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_PANEL_ENTRY" Language="en_US">
+			<Text>Assistants</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_PANEL_CLOSE" Language="en_US">
+			<Text>Close</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_PANEL_BACK" Language="en_US">
+			<Text>Back</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_PANEL_NO_DATA" Language="en_US">
+			<Text>No assistant data loaded.</Text>
+		</Row>
+		<Row Tag="LOC_IMG_ASSISTANT_SCENE_BA" Language="en_US">
+			<Text>Blue Archive</Text>
+		</Row>
+		<Row Tag="LOC_IMG_ASSISTANT_SCENE_SHALE" Language="en_US">
+			<Text>Shale</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_PILLAGED_IMPROVEMENTS" Language="en_US">
+			<Text>Improvements</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_PILLAGED_BUILDINGS" Language="en_US">
+			<Text>Buildings</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_PILLAGED_DISTRICTS" Language="en_US">
+			<Text>Districts</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_NUKE_STANDARD" Language="en_US">
+			<Text>Standard WMDs</Text>
+		</Row>
+		<Row Tag="LOC_ASSISTANT_NUKE_EXTENSIVE" Language="en_US">
+			<Text>Extensive WMDs</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_FOREIGN_MILITARY_UNITS" Language="en_US">
+			<Text>Foreign military</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_FOREIGN_WONDER_BUILD_PROGRESS" Language="en_US">
+			<Text>Foreign wonder progress</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_GOSSIP_HISTORY" Language="en_US">
+			<Text>Gossip history</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_FOREIGN_WONDER_LOCATION" Language="en_US">
+			<Text>Foreign wonder locations</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_FOREIGN_NUKE_NUM" Language="en_US">
+			<Text>Foreign nuclear arsenal</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_FOREIGN_PRODUCTION_PROGRESS" Language="en_US">
+			<Text>Foreign production progress</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_FOREIGN_SPY_ACTION" Language="en_US">
+			<Text>Foreign spy operations</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_FOREIGN_ECONOMY" Language="en_US">
+			<Text>Foreign economy</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_ENEMIES_IN_TERRITORY" Language="en_US">
+			<Text>Enemies in our territory</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_LOYALTY_DECREASING" Language="en_US">
+			<Text>Cities losing loyalty</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_POPULATION_DECREASING" Language="en_US">
+			<Text>Cities losing population</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_LOW_AMENITY" Language="en_US">
+			<Text>Cities short on amenities</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_SPY_ACTION_IN_TERRITORY" Language="en_US">
+			<Text>Enemy spies in our territory</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_PILLAGED_ASSETS" Language="en_US">
+			<Text>Pillaged improvements, buildings and districts</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_LOW_HEALTH_UNITS" Language="en_US">
+			<Text>Damaged units</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_CITY_AUTO_REPAIR" Language="en_US">
+			<Text>Auto-repair city districts and buildings</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_CITY_AUTO_FILL_BUILDINGS" Language="en_US">
+			<Text>Auto-fill city buildings</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_CITY_AUTO_REPEAT_PROJECTS" Language="en_US">
+			<Text>Auto-repeat city projects</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_CITY_AUTO_BUILD_IMPROVEMENTS" Language="en_US">
+			<Text>Auto-build improvements</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_CORPS_ASSIGN_UNITS" Language="en_US">
+			<Text>Assign units to corps</Text>
+		</Row>
+		<Row Tag="LOC_TOPIC_BRANCH_CORPS_SET_TASKS" Language="en_US">
+			<Text>Set corps tasks (alert / attack)</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

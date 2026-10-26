@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- =========================================================================
+     三个助手作为领袖：Plana / Arona / Smiling Professor
+     · 文明挂在现成的 CIVILIZATION_RUSSIA 下（召唤时文明类型取玩家自己的文明，不需要新建文明）
+     · **不写 Config**：不出现在开始游戏的可选领袖里
+     · 领袖能力先不填（没有 LeaderTraits / 特性）
+     · 贴图：ICON_LEADER_KOCMOCA_*（Data/Assistant_Icon.xml 注册）
+     ========================================================================= -->
+<GameData>
+    <Types>
+        <Row Type="LEADER_KOCMOCA_PLANA" Kind="KIND_LEADER"/>
+        <Row Type="LEADER_KOCMOCA_ARONA" Kind="KIND_LEADER"/>
+        <Row Type="LEADER_KOCMOCA_SMILING_PROFESSOR" Kind="KIND_LEADER"/>
+    </Types>
+
+    <Leaders>
+        <Row LeaderType="LEADER_KOCMOCA_PLANA" Name="LOC_LEADER_KOCMOCA_PLANA_NAME"
+             InheritFrom="LEADER_DEFAULT" Sex="Female" SceneLayers="4"/>
+        <Row LeaderType="LEADER_KOCMOCA_ARONA" Name="LOC_LEADER_KOCMOCA_ARONA_NAME"
+             InheritFrom="LEADER_DEFAULT" Sex="Female" SceneLayers="4"/>
+        <Row LeaderType="LEADER_KOCMOCA_SMILING_PROFESSOR" Name="LOC_LEADER_KOCMOCA_SMILING_PROFESSOR_NAME"
+             InheritFrom="LEADER_DEFAULT" Sex="Female" SceneLayers="4"/>
+    </Leaders>
+
+    <LeaderQuotes>
+        <Row LeaderType="LEADER_KOCMOCA_PLANA" Quote="LOC_LEADER_KOCMOCA_PLANA_QUOTE"/>
+        <Row LeaderType="LEADER_KOCMOCA_ARONA" Quote="LOC_LEADER_KOCMOCA_ARONA_QUOTE"/>
+        <Row LeaderType="LEADER_KOCMOCA_SMILING_PROFESSOR" Quote="LOC_LEADER_KOCMOCA_SMILING_PROFESSOR_QUOTE"/>
+    </LeaderQuotes>
+
+    <CivilizationLeaders>
+        <Row CivilizationType="CIVILIZATION_RUSSIA" LeaderType="LEADER_KOCMOCA_PLANA"
+             CapitalName="LOC_CITY_NAME_MOSCOW"/>
+        <Row CivilizationType="CIVILIZATION_RUSSIA" LeaderType="LEADER_KOCMOCA_ARONA"
+             CapitalName="LOC_CITY_NAME_MOSCOW"/>
+        <Row CivilizationType="CIVILIZATION_RUSSIA" LeaderType="LEADER_KOCMOCA_SMILING_PROFESSOR"
+             CapitalName="LOC_CITY_NAME_MOSCOW"/>
+    </CivilizationLeaders>
+</GameData>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- =========================================================================
+     助手面板（Plana / Arona / Smiling Professor）—— Blue Archive 扁平风
+     · 主色：白 + 淡蓝，纯色块、无渐变贴图
+     · 左侧场景栏：**透明底**，竖向滚动，实例是扁平书签式 GridButton
+     · 面板主体：场景大背景 + 该场景所有助手平铺；点助手 → 移到左侧、隐藏其他、右侧展开对话
+     · 关闭/返回/分支图标全部取自 Assets/Processed/atlas_icons 里的 BA 贴图
+     （贴图名见 AssistantPanel.lua 顶部 TEXTURES 表）
+     ========================================================================= -->
+<Context>
+    <Container ID="AssistantPanelRoot" Size="parent,parent" ConsumeMouse="1" Hidden="1">
+        <!-- 全屏遮罩：纯色半透明，扁平无纹理 -->
+        <Image ID="AssistantPanelDim" Anchor="C,C" Size="parent,parent" Color="24,44,64,150"/>
+
+        <!-- 面板主体：白色纯色块 -->
+        <Box ID="AssistantPanelBody" Anchor="C,C" Size="1500,780" Color="255,255,255,250">
+            <!-- 底部淡蓝细条 -->
+            <Image ID="AssistantPanelBottomBar" Anchor="B,L" Size="parent,4" Color="198,228,246,255"/>
+
+            <!-- ============ 左侧场景切换栏（透明，无背景贴图） ============ -->
+            <ScrollPanel ID="AssistantSceneScroll" Anchor="L,T" Offset="10,18" Size="100,parent-36"
+                         Vertical="1" AutoScrollBar="1">
+                <Stack ID="AssistantSceneStack" Anchor="C,T" Offset="0,0" StackGrowth="Down" StackPadding="10"/>
+            </ScrollPanel>
+            <!-- 场景栏与主体之间的分隔线（纯色） -->
+            <Image ID="AssistantSceneDivider" Anchor="L,T" Offset="112,18" Size="2,parent-36" Color="214,236,248,255"/>
+
+            <!-- ============ 主体：场景背景 + 助手 + 对话 ============ -->
+            <Box ID="AssistantSceneArea" Anchor="L,T" Offset="126,18" Size="parent-146,parent-36" Color="236,246,252,255">
+                <!-- 场景大背景（纹理名来自 Kocmoca_Assistants.SceneType） -->
+                <Image ID="AssistantSceneBackground" Anchor="C,C" Size="parent,parent" Color="255,255,255,255"/>
+                <!-- 底部渐隐条：让站位上的助手名字更清楚（纯色块，不做渐变） -->
+                <Image ID="AssistantSceneFloor" Anchor="B,L" Size="parent,120" Color="255,255,255,110"/>
+
+                <!-- 助手平铺层（Lua 按人数横排；选中后把主角挪到左侧） -->
+                <Container ID="AssistantCharacterLayer" Anchor="C,B" Size="parent,parent"/>
+
+                <!-- ============ 右侧对话面板（默认隐藏） ============ -->
+                <Box ID="AssistantDialoguePanel" Anchor="R,C" Offset="0,0" Size="420,parent-24" Color="255,255,255,248" Hidden="1">
+                    <Image ID="AssistantDialogueHeader" Anchor="T,L" Size="parent,56" Color="126,200,240,255"/>
+                    <GridButton ID="AssistantDialogueBack" Anchor="L,T" Offset="8,8" Size="48,48" ToolTip="LOC_ASSISTANT_PANEL_BACK">
+                        <Image ID="AssistantDialogueBackIcon" Anchor="C,C" Size="34,34" Icon="ICON_ASSISTANT_BACK"/>
+                    </GridButton>
+
+                    <ScrollPanel ID="AssistantBranchScroll" Anchor="L,T" Offset="14,70" Size="parent-28,parent-84"
+                                 Vertical="1" AutoScrollBar="1">
+                        <Stack ID="AssistantBranchStack" Anchor="C,T" Offset="0,0" StackGrowth="Down" StackPadding="8"/>
+                    </ScrollPanel>
+                </Box>
+
+                <!-- 关闭按钮：面板右上角，BA 十字图标 -->
+                <GridButton ID="AssistantPanelClose" Anchor="R,T" Offset="-12,12" Size="52,52" ToolTip="LOC_ASSISTANT_PANEL_CLOSE">
+                    <Image ID="AssistantPanelCloseBlock" Anchor="C,C" Size="parent,parent" Color="255,255,255,235"/>
+                    <Image ID="AssistantPanelCloseIcon" Anchor="C,C" Size="30,30" Icon="ICON_ASSISTANT_CLOSE"/>
+                </GridButton>
+
+                <!-- 空场景提示 -->
+                <Label ID="AssistantEmptyHint" Anchor="C,C" Size="600,40"
+                       FontSize="22" Color="120,150,175,255" Align="Center" Hidden="1"/>
+            </Box>
+        </Box>
+    </Container>
+
+    <!-- ======================= 实例模板 ======================= -->
+
+    <!-- 场景栏里的书签式按钮：白色块 + 淡蓝竖条 + 首字母/图标 + 名称 -->
+    <Instance Name="AssistantSceneTabInstance">
+        <GridButton ID="AssistantSceneTabButton" Anchor="C,T" Size="84,92" Offset="0,0">
+            <Image ID="AssistantSceneTabBlock" Anchor="C,T" Size="parent,72" Color="255,255,255,235"/>
+            <Image ID="AssistantSceneTabAccent" Anchor="L,T" Size="6,72" Color="126,200,240,255" Hidden="1"/>
+            <Image ID="AssistantSceneTabIcon" Anchor="C,T" Offset="0,10" Size="44,44" Icon="ICON_ASSISTANT_SCENE_TAB"/>
+            <Label ID="AssistantSceneTabLabel" Anchor="C,T" Offset="0,74" Size="84,18"
+                   FontSize="14" Color="96,132,160,255" Align="Center"/>
+        </GridButton>
+    </Instance>
+
+    <!-- 场景上站着的助手：立绘 + 名字条 + 选中标记 -->
+    <Instance Name="AssistantCharacterInstance">
+        <GridButton ID="AssistantCharacterButton" Anchor="C,B" Size="200,400" Offset="0,0">
+            <Image ID="AssistantCharacterPortrait" Anchor="C,B" Size="parent,parent" Color="255,255,255,255"/>
+            <Image ID="AssistantCharacterSelectBar" Anchor="C,B" Size="parent,6" Color="126,200,240,255" Hidden="1"/>
+            <Image ID="AssistantCharacterNamePlate" Anchor="C,B" Offset="0,6" Size="parent,28" Color="255,255,255,225"/>
+            <Label ID="AssistantCharacterName" Anchor="C,B" Offset="0,10" Size="parent-8,22"
+                   FontSize="18" Color="40,72,104,255" Align="Center"/>
+        </GridButton>
+    </Instance>
+
+    <!-- 对话面板里的一条分支 -->
+    <Instance Name="AssistantBranchInstance">
+        <GridButton ID="AssistantBranchButton" Anchor="C,T" Size="372,54" Offset="0,0">
+            <Image ID="AssistantBranchBlock" Anchor="C,C" Size="parent,parent" Color="240,248,255,255"/>
+            <Image ID="AssistantBranchIcon" Anchor="L,C" Offset="12,0" Size="26,26" Icon="ICON_ASSISTANT_BULLET"/>
+            <Label ID="AssistantBranchLabel" Anchor="L,C" Offset="50,0" Size="parent-62,40"
+                   FontSize="19" Color="40,72,104,255" Align="Left"/>
+        </GridButton>
+    </Instance>
+</Context>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_PLANA" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_PLANA_32"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_PLANA" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_PLANA_45"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_PLANA" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_PLANA_48"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_PLANA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_PLANA_50"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_PLANA" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_PLANA_55"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_PLANA" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_PLANA_64"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_PLANA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_PLANA_80"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_PLANA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_PLANA_256"/>
+			<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_ARONA" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_ARONA_32"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_ARONA" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_ARONA_45"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_ARONA" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_ARONA_48"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_ARONA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_ARONA_50"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_ARONA" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_ARONA_55"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_ARONA" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_ARONA_64"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_ARONA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_ARONA_80"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_ARONA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_ARONA_256"/>
+			<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_SMILING_PROFESSOR" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_SMILING_PROFESSOR_32"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_SMILING_PROFESSOR" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_SMILING_PROFESSOR_45"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_SMILING_PROFESSOR" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_SMILING_PROFESSOR_48"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_SMILING_PROFESSOR" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_SMILING_PROFESSOR_50"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_SMILING_PROFESSOR" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_SMILING_PROFESSOR_55"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_SMILING_PROFESSOR" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_SMILING_PROFESSOR_64"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_SMILING_PROFESSOR" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_SMILING_PROFESSOR_80"/>
+		<Row Name="ICON_ATLAS_ICON_LEADER_KOCMOCA_SMILING_PROFESSOR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_KOCMOCA_SMILING_PROFESSOR_256"/>
+			<Row Name="ICON_ATLAS_ICON_ASSISTANT_CLOSE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_CLOSE_80"/>
+		<Row Name="ICON_ATLAS_ICON_ASSISTANT_CLOSE" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_CLOSE_64"/>
+		<Row Name="ICON_ATLAS_ICON_ASSISTANT_CLOSE" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_CLOSE_48"/>
+		<Row Name="ICON_ATLAS_ICON_ASSISTANT_CLOSE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_CLOSE_32"/>
+			<Row Name="ICON_ATLAS_ICON_ASSISTANT_BACK" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_BACK_80"/>
+		<Row Name="ICON_ATLAS_ICON_ASSISTANT_BACK" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_BACK_64"/>
+		<Row Name="ICON_ATLAS_ICON_ASSISTANT_BACK" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_BACK_48"/>
+		<Row Name="ICON_ATLAS_ICON_ASSISTANT_BACK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_BACK_32"/>
+			<Row Name="ICON_ATLAS_ICON_ASSISTANT_SCENE_TAB" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_SCENE_TAB_80"/>
+		<Row Name="ICON_ATLAS_ICON_ASSISTANT_SCENE_TAB" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_SCENE_TAB_64"/>
+		<Row Name="ICON_ATLAS_ICON_ASSISTANT_SCENE_TAB" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_SCENE_TAB_48"/>
+		<Row Name="ICON_ATLAS_ICON_ASSISTANT_SCENE_TAB" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_SCENE_TAB_32"/>
+			<Row Name="ICON_ATLAS_ICON_ASSISTANT_BULLET" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_BULLET_64"/>
+		<Row Name="ICON_ATLAS_ICON_ASSISTANT_BULLET" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_BULLET_48"/>
+		<Row Name="ICON_ATLAS_ICON_ASSISTANT_BULLET" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_BULLET_32"/>
+			<Row Name="ICON_ATLAS_ICON_ASSISTANT_PANEL" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_PANEL_80"/>
+		<Row Name="ICON_ATLAS_ICON_ASSISTANT_PANEL" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_PANEL_64"/>
+		<Row Name="ICON_ATLAS_ICON_ASSISTANT_PANEL" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_PANEL_48"/>
+		<Row Name="ICON_ATLAS_ICON_ASSISTANT_PANEL" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ASSISTANT_PANEL_32"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_KOCMOCA_PLANA" Atlas="ICON_ATLAS_ICON_LEADER_KOCMOCA_PLANA" Index="0"/>
+			<Row Name="ICON_LEADER_KOCMOCA_ARONA" Atlas="ICON_ATLAS_ICON_LEADER_KOCMOCA_ARONA" Index="0"/>
+			<Row Name="ICON_LEADER_KOCMOCA_SMILING_PROFESSOR" Atlas="ICON_ATLAS_ICON_LEADER_KOCMOCA_SMILING_PROFESSOR" Index="0"/>
+			<Row Name="ICON_ASSISTANT_CLOSE" Atlas="ICON_ATLAS_ICON_ASSISTANT_CLOSE" Index="0"/>
+			<Row Name="ICON_ASSISTANT_BACK" Atlas="ICON_ATLAS_ICON_ASSISTANT_BACK" Index="0"/>
+			<Row Name="ICON_ASSISTANT_SCENE_TAB" Atlas="ICON_ATLAS_ICON_ASSISTANT_SCENE_TAB" Index="0"/>
+			<Row Name="ICON_ASSISTANT_BULLET" Atlas="ICON_ATLAS_ICON_ASSISTANT_BULLET" Index="0"/>
+			<Row Name="ICON_ASSISTANT_PANEL" Atlas="ICON_ATLAS_ICON_ASSISTANT_PANEL" Index="0"/>
+	</IconDefinitions>
+</GameData>

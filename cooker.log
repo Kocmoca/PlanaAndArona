@@ -1,0 +1,12 @@
+Starting AssetCooker...
+XLP cook starting...
+XLPs/LeaderFallbacks.xlp
+Opened output file: Z:\run\media\konstantin\F656735556731599\Projects\Plana and Arona\Platforms\Windows\BLPs/LeaderFallbacks.blp    For XLP: 'XLPs/LeaderFallbacks.xlp'
+Could not load digest key: ''.  Using mod key to sign BLP.
+Starting 'LeaderFallbacks'
+Load finished for: 'LeaderFallbacks' in 0.007 seconds
+Cook finished for: 'LeaderFallbacks' in 0.000 seconds
+Disk write finished for: 'LeaderFallbacks' in 0.066 seconds
+Cleanup finished for: 'LeaderFallbacks' in 0.000 seconds
+XLP cook completed with success.
+Cook completed in 0.103 seconds
